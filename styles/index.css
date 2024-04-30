@@ -1,0 +1,25 @@
+body > *
+{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.calculator-container
+{
+    width: 50%;
+    max-width: 500px;
+}
+
+.calculator-screen
+{
+    width: 100%;
+}
+
+.buttons-container
+{
+    display: grid;
+    grid-template-columns:  19% 19% 19% 19% 20%;
+    column-gap: 1%;
+    row-gap: 5px;
+}
